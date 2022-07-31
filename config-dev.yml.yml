@@ -14,6 +14,7 @@ spring:
     name: cloud-config-server
   cloud:
     config:
+      info: xmt.versioin
       server:
         git:
           uri: https://github.com/gorgouse/springcloud-config
