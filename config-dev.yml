@@ -1,22 +1,2 @@
-server:
-  port: 6666
-
-# dev
-eureka:
-  client:
-    register-with-eureka: true
-    fetch-registry: true
-    service-url:
-      defaultZone: http://localhost:7001/eureka
-
-spring:
-  application:
-    name: cloud-config-server
-  cloud:
-    config:
-      info: xmt.versioin
-      server:
-        git:
-          uri: https://github.com/gorgouse/springcloud-config
-          username: gorgouse
-          password: taotao1997..
+config:
+  info: dev-version
